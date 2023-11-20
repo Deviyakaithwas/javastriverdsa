@@ -1,0 +1,20 @@
+ find Smaller and greater
+
+
+import java. util.Scanner;
+public class Solution {
+    public static void main(String[] args){
+        // Write your code here
+        Scanner sc = new Scanner(System.in);
+        // int a, b;
+        if(a>=b){
+            System.out.println("greater than");
+        }else if(a==b){
+            System.out.println("equal");
+        }else{
+            System.out.println("smaller than");
+        }
+    }
+    
+}
+
