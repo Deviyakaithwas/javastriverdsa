@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Fundamental{
+    public static void main(String[] args){
+        // Scanner sc= new Scanner(System.in);
+        // int a = sc.nextInt();
+        
+        // if(a>=18){
+        //     System.out.println("its ADULT");
+        // }else{
+        //     System.out.println("its not ADULT");
+        // }
+        
+        int a=89;
+        if(a>=35 && a<=50){
+            System.out.println("grade F");
+        }else if(a>=52 && a<=60){
+            System.out.println("grade E");            
+        }else if(a>=61 && a<=75){
+            System.out.println("grade D"); 
+        }else if(a>=76 && a<=85){
+            System.out.println("grade C"); 
+        }else if(a>=85 && a<=90){
+            System.out.println("grade B"); 
+        }else if(a>=90 && a<=100){
+            System.out.println("grade A"); 
+        }
+    }
+}
